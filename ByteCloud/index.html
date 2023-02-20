@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <diV class="calculator_field">
+      <div class="graphs_field"> 
+        <div class="graphs">
+            <div class="graph_container">
+               <p class="backblaze_graph_value">5$</p>  
+               <div class="backblaze_graph"></div>
+            </div>
+            <div class="graph_container">
+                <p class="bunny_graph_value">5$</p> 
+                <div class="bunny_graph"></div>
+            </div>
+            <div class="graph_container">
+                <p class="scaleway_graph_value">5$</p>    
+                <div class="scaleway_graph"></div>
+            </div> 
+            <div class="graph_container">
+                <p class="vultr_graph_value">5$</p>  
+                <div class="vultr_graph"></div>
+            </div>    
+        </div>
+
+        <div class="lower_bar"></div>
+
+        <diV class="icons">
+            <img class="icon" src="./images/backblaze.png" alt="backblaze logo" />
+            <img class="icon" src="./images/bunny.jpg" alt="bunny logo" />
+            <img class="icon" src="./images/scaleway.png" alt="scaleway logo"/>
+            <img class="icon" src="./images/vultr.svg" alt="vultr logo" />
+        </diV>
+
+        <div class="description">
+            <div class="single_description">
+                <p class="backblaze_title">backblaze</p>
+            </div>
+            <div class="single_description">
+                <p>bunny</p>
+                <div class="multi_value">
+                    <div class="dot hdd"></div>
+                    <div class="multi_value_text">HDD</div>
+                    <div class="dot sdd"></div>
+                    <div class="multi_value_text">SDD</div>
+                </div>
+            </div>
+            <div class="single_description">
+                <p class=>scaleway</p>
+                <div class="multi_value block">
+                    <div class="dot single"></div>
+                    <div class="multi_value_text">Single</div>
+                    <div class="dot multi"></div>
+                    <div class="multi_value_text">Multi</div>
+                </div>     
+            </div>
+            <div class="single_description">
+                <p>vultr</p>
+            </div>
+        
+            
+        </div>
+      </div>  
+
+        <div class="input_range_container">
+           <div class="storage_container">
+              <h4 class="storage_header">Storage:</h4>
+              <div class="range_bar">
+                 <div class="range_threshold"></div>
+                 <input type="range" min="0" max="1000"  step="1" class="storage" />
+                 <div class="range_threshold"></div>
+              </div>
+              <div class="somevalue">
+                <p>0</p>
+                <p>1000</p>
+              </div>
+           </div>
+           <div class="transfer_container">
+               <h4 class="transfer_header">Transfer:</h4>
+               <div class="range_bar">
+                  <div class="range_threshold"></div>
+                  <input type="range" min="0" max="1000" step="1" class="transfer" />
+                  <div class="range_threshold"></div>
+               </div>    
+               <div class="somevalue">
+                   <p>0</p>
+                   <p>1000</p>
+               </div>
+           </div>
+        </diV>
+    </diV>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
